@@ -24,12 +24,12 @@ import { Component } from '@angular/core';
         align-items: center;
         min-height: 100vh;
         font-family: Helvetica;
-        font-size: 32px;
+        font-size: 2rem;
       }
       input {
         display: block;
         margin-bottom: 24px;
-        font-size: 24px;
+        font-size: 1.6rem;
         width: 4em;
       }
 
@@ -38,7 +38,7 @@ import { Component } from '@angular/core';
       }
 
       .input-description {
-        font-size: 24px;
+        font-size: 1.6rem;
         color: #2f4f4f;
       }
       .BMI {
