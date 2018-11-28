@@ -3,7 +3,9 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `
+    <span> Please provide your weight (kg): </span>
     <input type="number" placeholder="Weight" [(ngModel)]="weight" />
+    <span> Please provide your height (m): </span>
     <input type="number" placeholder="Height" [(ngModel)]="height" />
 
     <div>
